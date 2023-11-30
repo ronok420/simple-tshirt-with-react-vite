@@ -9,7 +9,7 @@ const Tshirts = ({tshirt,handleAddtoCart}) => {
             <h4>{name}</h4>
             <p>${price}</p>
             {/* <p>{gender}</p> */}
-            <button onClick={()=>handleAddtoCart(_id)}>buy now</button>
+            <button onClick={()=>handleAddtoCart(tshirt)}>buy now</button>
            
         </div>
     );

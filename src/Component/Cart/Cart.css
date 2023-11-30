@@ -1,0 +1,7 @@
+.single-cart{
+    position: sticky;
+    top: 0;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+
+}
